@@ -1,8 +1,7 @@
-## [Help Maintain Vundle](https://github.com/VundleVim/Vundle.vim/issues/383)
-
 ## Table of Contents
 
 - [About](#about)
+- [Fork](#why-this-fork)
 - [Quick Start](#quick-start)
 - [Docs](#docs)
 - [Changelog](#changelog)
@@ -30,11 +29,29 @@
 * manages the [runtime path] of your installed scripts
 * regenerates [help tags] after installing and updating
 
-[Vundle] is undergoing an [interface change], please stay up to date to get latest changes.
-
 [![Gitter-chat](https://badges.gitter.im/VundleVim/Vundle.vim.svg)](https://gitter.im/VundleVim/Vundle.vim) for discussion and support.
 
 ![Vundle-installer](http://i.imgur.com/Rueh7Cc.png)
+
+
+## Why This Fork
+
+The original Vundle administrator, gmarik, has become mostly unresponsive (which
+is okay! He asked for people to [help maintain Vundle](https://github.com/VundleVim/Vundle.vim/issues/383),
+but it seems the central organization has since lost steam). Perhaps more
+troublesome, [it appears that those who continue to maintain Vundle don't have
+owner rights to the repo and can't add new
+maintainers](https://github.com/VundleVim/Vundle.vim/issues/608#issuecomment-406291070),
+so the slow erosion of time has been eroding the project.
+
+But there are bugs to fix and pull requests to be made, and it's time to make
+them.
+
+I'll continue to assist and comment on pull requests made to the original Vundle
+repository, but of course I'll only be able to perform pull requests here.
+Issues and pull requests are welcome here as well.
+
+
 
 ## Quick Start
 
@@ -142,19 +159,12 @@ see [Vundle contributors](https://github.com/VundleVim/Vundle.vim/graphs/contrib
 ## TODO
 [Vundle] is a work in progress, so any ideas and patches are appreciated.
 
-* [x] activate newly added bundles on `.vimrc` reload or after `:PluginInstall`
-* [x] use preview window for search results
-* [x] Vim documentation
-* [x] put Vundle in `bundles/` too (will fix Vundle help)
-* [x] tests
-* [x] improve error handling
+* [ ] tests
 * [ ] allow specifying revision/version?
 * [ ] handle dependencies
 * [ ] show description in search results
-* [ ] search by description as well
-* [ ] make it rock!
 
-[Vundle]:http://github.com/VundleVim/Vundle.vim
+[Vundle]:http://github.com/davidlowryduda/Vundle.vim
 [Windows setup]:https://github.com/VundleVim/Vundle.vim/wiki/Vundle-for-Windows
 [FAQ]:https://github.com/VundleVim/Vundle.vim/wiki
 [Tips]:https://github.com/VundleVim/Vundle.vim/wiki/Tips-and-Tricks
@@ -166,10 +176,10 @@ see [Vundle contributors](https://github.com/VundleVim/Vundle.vim/graphs/contrib
 [help tags]:http://vimdoc.sourceforge.net/htmldoc/helphelp.html#:helptags
 [runtime path]:http://vimdoc.sourceforge.net/htmldoc/options.html#%27runtimepath%27
 
-[configure]:https://github.com/VundleVim/Vundle.vim/blob/v0.10.2/doc/vundle.txt#L126-L233
-[install]:https://github.com/VundleVim/Vundle.vim/blob/v0.10.2/doc/vundle.txt#L234-L254
-[update]:https://github.com/VundleVim/Vundle.vim/blob/v0.10.2/doc/vundle.txt#L255-L265
-[search]:https://github.com/VundleVim/Vundle.vim/blob/v0.10.2/doc/vundle.txt#L266-L295
-[clean]:https://github.com/VundleVim/Vundle.vim/blob/v0.10.2/doc/vundle.txt#L303-L318
-[interactive mode]:https://github.com/VundleVim/Vundle.vim/blob/v0.10.2/doc/vundle.txt#L319-L360
-[interface change]:https://github.com/VundleVim/Vundle.vim/blob/v0.10.2/doc/vundle.txt#L372-L396
+[configure]:https://github.com/davidlowryduda/Vundle.vim/blob/v0.10.2/doc/vundle.txt#L126-L233
+[install]:https://github.com/davidlowryduda/Vundle.vim/blob/v0.10.2/doc/vundle.txt#L234-L254
+[update]:https://github.com/davidlowryduda/Vundle.vim/blob/v0.10.2/doc/vundle.txt#L255-L265
+[search]:https://github.com/davidlowryduda/Vundle.vim/blob/v0.10.2/doc/vundle.txt#L266-L295
+[clean]:https://github.com/davidlowryduda/Vundle.vim/blob/v0.10.2/doc/vundle.txt#L303-L318
+[interactive mode]:https://github.com/davidlowryduda/Vundle.vim/blob/v0.10.2/doc/vundle.txt#L319-L360
+[interface change]:https://github.com/davidlowryduda/Vundle.vim/blob/v0.10.2/doc/vundle.txt#L372-L396
